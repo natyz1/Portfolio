@@ -1,0 +1,70 @@
+/* ajustando o estilo da formação */
+
+#formacao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 85px 0px;
+}
+
+#formacao .conteudo {
+    min-width: 1040px;
+}
+
+#formacao .ensinos {
+    display: inline-block;
+    max-width: 571px;
+}
+
+.ensino-ano {
+    display: inline-block;
+}
+
+.ensino {
+    font-weight: 300;
+    font-size: 35px;
+    display: inline-block;
+    min-width: 472px;
+}
+
+.ano {
+    font-weight: 300;
+    font-size: 20px;
+    display: inline-block;
+}
+
+.lugar {
+    font-weight: 200;
+    font-size: 35px;
+}
+
+.ensino-medio .lugar {
+    padding-bottom: 57px;
+}
+
+.facul .ensino {
+    padding-top: 57px;
+    max-width: 472px;
+}
+
+#formacao .idiomas {
+    display: inline-block;
+    max-width: 326px;
+    padding-left: 150px;
+}
+
+.idiomas h3 {
+    font-weight: 300;
+    font-size: 35px; 
+}
+
+.idioma {
+    font-weight: 300;
+    font-size: 35px;
+    padding-top: 60px;
+}
+
+.fluencia {
+    font-weight: 200;
+    font-size: 35px;
+}

@@ -1,0 +1,89 @@
+/* ajustando o estilo do contato */
+
+#contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 85px 0px;
+    position: relative;
+}
+
+#contato h3 {
+    font-weight: 500;
+    font-size: 30px;
+    color: var(--color-primary);
+}
+
+#contato .main {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; 
+    gap: 200px;
+}
+
+#contato h1 {
+    margin-bottom: 90px;
+}
+
+#contato .inputs {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.redes-sociais {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 268px;
+    height: auto;
+    margin-top: 350px;
+}
+
+#contato .links a {
+    text-decoration: none;
+}
+
+#contato ::placeholder {
+    width: 509px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 200;
+    color: var(--color-secundary);
+}
+
+#contato input {
+    width: 509px;
+    border-radius: 10px;
+    padding-top: 3px;
+    padding-left: 11px;
+    font-size: 20px;
+    font-weight: 400;
+    color: black;
+    border: 0;
+    margin-bottom: 48px; 
+}
+
+textarea {
+    width: 509px;
+    height: 190px;
+    border-radius: 10px;
+    padding-top: 3px;
+    padding-left: 11px;
+    font-size: 20px;
+    font-weight: 400;
+    color: black;
+    border: 0;
+    margin-bottom: 48px;
+}
+
+button {
+    font-weight: 700;
+    font-size: 20px;
+    padding: 3px 19px;
+    border-radius: 10px;
+    border: 0;
+    cursor: pointer;
+    align-self: flex-start;
+}

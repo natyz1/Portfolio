@@ -1,0 +1,46 @@
+/* ajustando o estilo do inicio */
+
+#inicio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 104px;
+    padding-bottom: 106px;
+    gap: 20px;
+}
+
+#inicio .left {
+    font-size: 36px;
+    font-weight: 200;
+    max-width: 707px;
+    max-height: 264px;
+    padding-right: 60px;
+}
+
+#inicio img {
+    max-width: 100%;
+    height: auto;
+    padding-right: 9px;
+}
+
+.arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrow svg {
+    width: 71px;
+    height: 71px;
+    animation: float 1.5s infinite; 
+}
+
+/* fazendo com que a seta do inicio balance */
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}

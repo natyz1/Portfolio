@@ -1,0 +1,55 @@
+/* ajustando os estilos globais da página */
+
+:root {
+    --font-jost: 'jost', sans-serif;
+    --color-primary: #FB6F92;
+    --color-secundary: #000000cc;
+    background-color: #000000cc;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-jost);
+    scroll-behavior: smooth;
+    color: #FF8FAB;
+}
+
+h1 {
+    font-weight: 500;
+    font-size: 60px;
+    color: var(--color-primary);
+    padding-bottom: 25px;
+}
+
+.main {
+    max-width: 1040px;
+}
+
+.conteudo {
+    padding: 50px 25px;
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 0 20px; 
+}
+
+.dividir {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer {
+    color: #FFC2D1;
+    font-size: 15px;
+    font-weight: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0px;
+}

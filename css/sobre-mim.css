@@ -1,0 +1,14 @@
+/* ajustando o estilo do sobre mim */
+
+#sobre-mim {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 85px 0px;
+}
+
+#sobre-mim p {
+    font-weight: 200;
+    font-size: 32px;
+    padding: 50px 25px;
+}

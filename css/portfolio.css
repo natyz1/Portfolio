@@ -1,0 +1,37 @@
+/* ajustando o estilo do portfolio */
+
+#portfolio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 85px 0px;
+}
+
+#portfolio p {
+    font-weight: 200;
+    font-size: 25px;
+}
+
+#portfolio a {
+    text-decoration: none;
+    font-weight: 300;
+    color: #FFE5EC;
+}
+
+#portfolio .imagens {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 41px;
+    padding: 20px;
+    max-width: 919px;
+    margin: 0 auto; 
+}
+
+#portfolio .imagens .linktreenlw {
+    height: 50%;
+}
+
+#portfolio .imagens .youtube {
+    height: 100%;
+}
